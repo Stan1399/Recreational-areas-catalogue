@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap" rel="stylesheet">
+        <title>Main page</title>
+    </head>
+
+    <body>       
+        <header>
+            <div class="header-container">
+                <h1>Recreational areas catalogue</h1>
+                <div>
+                    <label id="menu-checkbox">
+                        <input type="checkbox" id="show-menu-checkbox"></input>
+                        <span></span>
+                        <div class="menu-list">
+                            <menu>
+                                <a class="menuitem" href="#">Sign in</a>
+                                <a class="menuitem" href="#">Sign up</a>
+                            </menu> 
+                        </div>
+                    </label>
+                </div>
+                
+            </div>
+        </header>
+
+        <main>
+            <form class="search-form-mobile">
+                <h2>Type here location data to find yours!</h2>
+                <input type="input" id="name" placeholder="Location's name">
+                <input type="input" id="country" placeholder="Country">
+                <input type="input" id="region" placeholder="Region">
+                <input type="input" id="settlement" placeholder="Settlement">
+                <input type="input" id="street" placeholder="Street">
+                <div class="buttons">
+                    <button id="search">Search</button>   
+                    <button id="clear">Clear</button> 
+                </div>
+            </form>
+            <div class="content-mobile">
+                <ul class="list">
+                    <li class="item">
+                        <div class="major-info">
+                            <img class="item-image" src="images/1.jpg" alt="Sorry. The picture was not found:(" >
+                            <div class="info">
+                                <h3>BELOVEZHSKAYA PUSHCHA</h3>
+                                <ul>
+                                    <li><p>Belarus</p></li>
+                                    <li><p>Brest</p></li>
+                                    <li><p>Brest</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="paragraph">Belovezhskaya Pushcha is the largest primeval forest in Europe. Here you can find bisons and lynxes that are rare in the world, and more than half of the plants that are growing in the country. If the cold will blow, you know, Santa Claus’ residence is nearby.</p>
+                        <div>
+                            <a href="/">Details</a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="major-info">
+                            <img class="item-image" src="images/2.jpg" alt="Sorry. The picture was not found:(" >
+                            <div class="info">
+                                <h3>AUGUSTOW CHANNEL (A UNIQUE WATER SYSTEM)</h3>
+                                <ul>
+                                    <li><p>Belarus</p></li>
+                                    <li><p>Grodno</p></li>
+                                    <li><p>Grodno</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="paragraph">Part of this unique channel is located in Belarus and a part is located in Poland. Crossing the interstate border, kayaking or by boat is considered quite an adventure by the locals. In addition, since October 2016 you do not need a visa for doing this. The channel connects seven lakes and is ideal for those who prefer recreationional activities.</p>
+                        <div>
+                            <a href="/">Details</a>
+                        </div>
+                    </li>
+                </ul>
+                <button id="load-more">Load more</button>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Contact us:</p>
+            <p>About:</p>
+            <img class="footer-image" src="images/logo.png"/>
+        </footer>
+    </body>
+
+</html>
